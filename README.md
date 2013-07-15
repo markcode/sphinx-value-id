@@ -10,4 +10,4 @@ md5ToInt(string, bits);
 
 EG:
 
-var mybigintID = md5ToInt("hello world", 64);   // 173911145114105
+var mybigintID = md5ToInt("hello world", 64);            // 173911145114105
