@@ -1,3 +1,15 @@
+try {
+	var md5hashing = '';
+	var hashlib		= require('hashlib');		// for creating md5 hashes (faster than crypto).
+	console.log('md5 hashing using: hashlib');	
+	md5hashing = 'hashlib';
+} catch (e) {
+	// if hashlib is not installed use inbuilt crypto module. Crypto is slower at md5 hasing that hashlib.
+	var crypto 		= require('crypto');
+	console.log('md5 hashing using: crypto');
+	md5hashing = 'crypto';
+}
+
 
 // converts string to 64 bit or 32 bit integer.
 function md5ToInt(string, bits) {
