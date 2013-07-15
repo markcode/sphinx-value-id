@@ -1,7 +1,7 @@
 sphinx-value-id
 ===============
 
-Sphinx (search) Value as ID
+Sphinx (search), convert string value to integer for using as attribute ID *_attr_bigint and *_attr_uint, using node.js.
 
 Usage:
 ---
